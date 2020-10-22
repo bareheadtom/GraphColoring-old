@@ -1,6 +1,4 @@
-# GraphColoring
- Tabu Search Algorithm: A Case Study on  Graph Coloring realized by Python
-  基于禁忌搜索实现的图着色算法，python实现
+# GraphColoring Tabu Search Algorithm: A Case Study on  Graph Coloring realized by Python基于禁忌搜索实现的图着色算法，python实现
 # data:
 ##   存放算例，
 # readMe：
@@ -13,12 +11,13 @@
 ###   def findMove(adjacent_Color_Table,sol,n,k,taBuTenureTable,iterCur):找到一次最优移动
 ###   def makeMove(adjacent_Color_Table,sol,bestMove,bestdeltValue,taBuTenureTable,iterCur):执行最优移动
 # 运算结果：
-###   算例文件名     最少着色颜色数           迭代次数           
-###   DSJC125.1	             5                  4296
-###   DSJC125.5	             17                 7171
-###   DSJC125.9	             44                 7645
-###   DSJC250.1	             8                  14835    202s
-###   DSJC250.5	             28
-###   DSJC250.9	             72
-###   DSJC500.1	             12
-###   DSJC500.5	             49,48,47
+   算例文件名 |   最少着色颜色数      |     迭代次数 |  运算时间 
+   ------------|-----------------|----------------|--------------
+   DSJC125.1	    |         5      |            4296
+   DSJC125.5	    |         17       |          7171
+   DSJC125.9	     |        44      |           7645
+   DSJC250.1	     |        8      |            14835  |  202s
+   DSJC250.5	      |       28
+   DSJC250.9	       |      72
+   DSJC500.1	      |       12
+   DSJC500.5	       |      49,48,47
