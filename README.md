@@ -2,7 +2,7 @@
 # data:
 ##   存放算例，
 # readMe：
-##   有第一列为算例文件，第二列为算例的输出结果，第三列为实际该算例成功着色的迭代次数
+##   有第一列为算例文件，第二列为算例的输出结果，第三列为实际该算例成功着色的迭代次数，第四列为运算时间
 # 函数：
 ###   def initialSolution(sol,k,n):初始化图着色
 ###   def initializeAdjacentColorTable(adjacent_Color_Table,edges,sol):根据边和当前图着色情况生成邻接着色表
